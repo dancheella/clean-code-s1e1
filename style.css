@@ -37,7 +37,7 @@
 .task__input, .task__label, #task__input_add{
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 #task__adding {
@@ -141,7 +141,7 @@
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .task__button_delete__img {
@@ -157,17 +157,17 @@
 /* Completed */
 
 #task-list_completed .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
-.task__input, task__label{
-  display: none
+.task__input{
+  display: none;
 }
 
 .edit-mode .task__input{
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task__label {
